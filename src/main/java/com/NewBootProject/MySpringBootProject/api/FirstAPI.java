@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController("/")
 public class FirstAPI {
 	
-	@RequestMapping("/testing")
+	@RequestMapping("/testing-one")
 	public String testJenkins(){
 		return "Hey there! I am Sumit:))";
 	}
